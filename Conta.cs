@@ -10,7 +10,7 @@ namespace DIO.Bank
         private double Credito { get; set; }
         private string Nome { get; set; }
 
-        public Conta(TipoConta tipoConta, double Saldo, double Credito, string nome)
+        public Conta(TipoConta tipoConta, double Saldo, double Credito, string nome, double saldo)
         {
             this.TipoConta = TipoConta;
             this.Saldo = Saldo;
